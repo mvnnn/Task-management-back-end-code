@@ -1,0 +1,33 @@
+{
+  "name": "sprinklr-gurgaon-back-end-code",
+  "version": "1.0.0",
+  "description": "That's sprinklr-gurgaon-front-end-code's backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhautik_mavani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.15.3",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.0.0",
+    "less-middleware": "^2.2.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "keywords": [
+    "express"
+  ]
+}
